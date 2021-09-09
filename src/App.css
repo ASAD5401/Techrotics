@@ -1,38 +1,117 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: darkgoldenrod;
+  padding-left: 10%;
+  padding-right: 10%;
+  color:#fff
+
+
+}
+
+.navbar li{
+  list-style: none;
+  height: 50px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar li p{
+  margin-top: 13px;
+  font-size: 16px;
+  padding-right: 15px;
+  padding-left:15px ;
+  font-weight: 600;
+}
+.learning{
+  background-color: crimson;
+}
+.navbar li:hover{
+  cursor: pointer;
+  color:crimson;
+  background-color: #fff;
+}
+.learning:hover{
+  color:crimson !important;
+  background-color:darkgoldenrod !important ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.features{
+  margin-top: 200px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.card{
+  /* border:2px red solid; */
+  text-align: center;
+}
+.logo img{
+  width:100px;
+  /* border:2px red solid; */
+
+  height: 100px;
+}
+.logo i{
+  width: 100px;
+  height: 100px;
+}
+.heading{
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer{
+  background-color: rgb(78, 74, 74);
+  color:#fff;
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  padding-top:50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.head{
+  font-weight: 500;
+  margin-bottom: 10px;
 }
+.section{
+  max-width: 20%;
+}
+.section li{
+  list-style: none;
+  margin-bottom: 5px;
+
+}
+.section li:hover{
+  color:darkgoldenrod;
+  border-bottom: 1px darkgoldenrod solid;
+  cursor: pointer;
+}
+
+.input{
+  margin-left: 10px;
+  color:#fff;
+}
+
+.subscribe{
+  border-bottom:2px #fff solid;
+  padding-bottom: 10px;
+}
+.card-logo{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.phone{
+  color:orange;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.logo-head{
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+/* .section p{
+  margin-bottom: 10px;
+} */
